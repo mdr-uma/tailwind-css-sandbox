@@ -20,6 +20,14 @@ const Animations = () => {
                     Location
                 </div>
             </div>
+
+            <div>
+                <h1 className="mb-10 text-2xl font-extrabold">Spinner</h1>
+                <div>
+                    <i className="fas fa-spinner text-blue-900 text-2xl animate-spin px-3 py-3"></i>
+                    Loading
+                </div>
+            </div>
         </div>
     )
 }
