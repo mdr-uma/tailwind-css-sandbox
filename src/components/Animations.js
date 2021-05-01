@@ -28,6 +28,13 @@ const Animations = () => {
                     Loading
                 </div>
             </div>
+
+            <div>
+                <h1 className="mb-10 text-2xl font-extrabold">Pulse</h1>
+                <div>
+                    <i className="fas fa-heartbeat text-red-700 text-6xl animate-pulse"></i>
+                </div>
+            </div>
         </div>
     )
 }
