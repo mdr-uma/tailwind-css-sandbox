@@ -34,7 +34,7 @@ const Animations = () => {
             <div>
                 <h1 className="mb-10 text-2xl font-bold">Pulse</h1>
                 <div>
-                    <i className="fas fa-heartbeat text-red-700 text-6xl animate-pulse"></i>
+                    <i className="fas fa-heartbeat text-red-700 lg:text-red-900 text-6xl animate-pulse"></i>
                 </div>
             </div>
         </div>
