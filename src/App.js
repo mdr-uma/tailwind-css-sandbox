@@ -1,10 +1,10 @@
 import './App.css';
-import Animations from './components/Animations'
+import DarkMode from './components/DarkMode';
 
 function App() {
   return (
     <div>
-      <Animations />
+      <DarkMode />
     </div>
   )
 }
