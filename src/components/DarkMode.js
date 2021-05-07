@@ -3,14 +3,14 @@ import image from '../images/classic-utility-jacket.jpeg'
 
 const darkMode = () => {
     return(
-        <div className="min-h-screen flex items-center justify-center">
+        <div className="min-h-screen flex items-center justify-center dark:bg-black">
             <div class="flex rounded-md border border-gray-400">
                 <div class="flex-none w-48 relative">
                     <img src={image} alt="" class="absolute inset-0 w-full h-full object-cover" />
                 </div>
                 <form class="flex-auto p-6">
                     <div class="flex flex-wrap">
-                        <h1 class="flex-auto text-xl font-semibold">
+                        <h1 class="flex-auto text-xl dark:text-white font-semibold">
                             Classic Utility Jacket
                         </h1>
                         <div class="text-xl font-semibold text-gray-500">
@@ -21,7 +21,7 @@ const darkMode = () => {
                         </div>
                     </div>
                     <div class="flex items-baseline mt-4 mb-6">
-                        <div class="space-x-2 flex">
+                        <div class="space-x-2 flex dark:text-white">
                             <label>
                                 <input class="w-9 h-9 flex items-center justify-center bg-gray-100 rounded-lg" name="size" type="radio" value="xs" checked />
                                 XS
@@ -47,8 +47,8 @@ const darkMode = () => {
                     </div>
                     <div class="flex space-x-3 mb-4 text-sm font-medium">
                         <div class="flex-auto flex space-x-3">
-                            <button class="w-1/2 flex items-center justify-center rounded-md bg-black text-white" type="submit">Buy now</button>
-                            <button class="w-1/2 flex items-center justify-center rounded-md border border-gray-300" type="button">Add to bag</button>
+                            <button class="w-1/2 flex items-center justify-center rounded-md bg-black dark:bg-yellow-600 text-white" type="submit">Buy now</button>
+                            <button class="w-1/2 flex items-center justify-center rounded-md dark:text-white border border-gray-300" type="button">Add to bag</button>
                         </div>
                         <button class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-gray-400 border border-gray-300" type="button" aria-label="like">
                             <svg width="20" height="20" fill="currentColor">
