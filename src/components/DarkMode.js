@@ -3,6 +3,7 @@ import image from '../images/classic-utility-jacket.jpeg'
 
 const darkMode = () => {
     return(
+        <div className="min-h-screen flex items-center justify-center">
             <div class="flex rounded-md border border-gray-400">
                 <div class="flex-none w-48 relative">
                     <img src={image} alt="" class="absolute inset-0 w-full h-full object-cover" />
@@ -60,6 +61,7 @@ const darkMode = () => {
                         </p>
                 </form>
             </div>
+        </div>
     )
 }
 
