@@ -3,7 +3,7 @@ import Image from '../images/yomari.jpeg'
 
 const Filter = () => {
     return(
-        <div>
+        <div className="h-screen flex justify-center items-center">
             <img src={Image} alt='food-pic'/>
         </div>
     )
