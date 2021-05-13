@@ -1,10 +1,10 @@
 import './App.css';
-import DarkMode from './components/DarkMode';
+import Filter from './components/Filter';
 
 function App() {
   return (
     <div>
-      <DarkMode />
+      <Filter />
     </div>
   )
 }
