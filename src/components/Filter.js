@@ -8,8 +8,10 @@ const Filter = () => {
                 Newari Popular Dish Yomari Set
             </h1>
             <div className="flex justify-center items-center">
-                <img src={Image} alt='food-pic'/>
-            </div>
+                <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter blur-sm"/>
+                <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter blur-lg"/>
+                <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter blur-none"/>
+            </div>                        
         </div>
     )
 }
