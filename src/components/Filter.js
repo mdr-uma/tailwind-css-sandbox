@@ -21,7 +21,12 @@ const Filter = () => {
                 <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter brightness-50"/>
                 <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter brightness-150"/>
                 <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter brightness-200"/>
-            </div>                            
+            </div>          
+            <div className="flex justify-center items-center">
+                <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter hue-rotate-90"/>
+                <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter hue-rotate-180"/>
+                <img src={Image} alt='food-pic' className="h-40 w-50 pr-4 filter -hue-rotate-180"/>
+            </div>                   
         </div>
     )
 }
