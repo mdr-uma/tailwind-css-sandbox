@@ -1,10 +1,10 @@
 import './App.css';
-import Filter from './components/Filter';
+import BackDropFilter from './components/BackDropFilter';
 
 function App() {
   return (
     <div>
-      <Filter />
+      <BackDropFilter />
     </div>
   )
 }
