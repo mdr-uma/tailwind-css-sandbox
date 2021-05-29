@@ -9,7 +9,7 @@ const BackDropFilter = () => {
             </div>
             <div className="relative h-screen flex flex-col overflow-y-auto space-y-80">
                 <div className="flex-shrink-0 h-full"></div>
-                <div className="flex-shrink-0 h-1/3 border-2 border-gray-200"></div>
+                <div className="flex-shrink-0 h-1/3 border-2 border-gray-200 backdrop-filter backdrop-saturate-150"></div>
                 <div className="flex-shrink-0 h-full"></div>
             </div>
         </div>
